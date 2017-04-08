@@ -10,7 +10,7 @@ FavLang is implemented as a microservice with Spring Boot and a Tomcat server em
 
 Just run the application!
 
-Open your 
+Open a command line: 
 ```shell
 $ java -jar favlang.war
 ```
