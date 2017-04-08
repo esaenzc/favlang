@@ -17,12 +17,11 @@ $ java -jar favlang.war
 Go to:
 http://localhost:8080/favlang
 
+![index](https://cloud.githubusercontent.com/assets/27009446/24830573/1985c3aa-1c89-11e7-94a4-229d1d6eca15.PNG)
+
 Prerrequisites:
 
 Java 8: https://java.com/es/download/
-
-![index](https://cloud.githubusercontent.com/assets/27009446/24830573/1985c3aa-1c89-11e7-94a4-229d1d6eca15.PNG)
-
 
 Initialization:
 
