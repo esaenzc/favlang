@@ -6,7 +6,8 @@
 	<groupId>com.tcook.github</groupId>
 	<artifactId>favlang</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<!-- With jar packaging JSP does not work in tomcat -->
+	<packaging>war</packaging>
 
 	<name>favlang</name>
 	<description>Github User Favourite Language</description>
@@ -72,6 +73,6 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
 
 </project>
