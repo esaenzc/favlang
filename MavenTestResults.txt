@@ -1,0 +1,348 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building favlang 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ favlang ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ favlang ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ favlang ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\PcCom\Desktop\favlang\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ favlang ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ favlang ---
+[INFO] Surefire report directory: C:\Users\PcCom\Desktop\favlang\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+17:21:16.864 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:16.868 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:21:16.874 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:21:16.886 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:21:16.895 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests], using SpringBootContextLoader
+17:21:16.899 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: class path resource [com/tcook/github/favlag/controller/GitControllerIntegrationTests-context.xml] does not exist
+17:21:16.900 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: class path resource [com/tcook/github/favlag/controller/GitControllerIntegrationTestsContext.groovy] does not exist
+17:21:16.900 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:21:16.901 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: GitControllerIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:21:16.924 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:16.932 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+17:21:16.932 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+17:21:16.932 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+17:21:16.940 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/tcook/github/favlag/controller/] to resources [URL [file:/C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/controller/], URL [file:/C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/controller/]]
+17:21:16.940 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\controller]
+17:21:16.940 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\controller] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/controller/*.class]
+17:21:16.942 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\controller]
+17:21:16.942 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\controller] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/controller/*.class]
+17:21:16.944 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/tcook/github/favlag/controller/*.class] to resources [file [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\controller\GitControllerIntegrationTests.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\controller\ExceptionControllerAdvice.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\controller\GitHubController.class]]
+17:21:16.964 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/tcook/github/favlag/] to resources [URL [file:/C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/], URL [file:/C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/]]
+17:21:16.964 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag]
+17:21:16.964 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/*.class]
+17:21:16.964 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag]
+17:21:16.964 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/*.class]
+17:21:16.966 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/tcook/github/favlag/*.class] to resources [file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\Constants.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\FavlangApplication.class]]
+17:21:16.984 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\FavlangApplication.class]
+17:21:16.986 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.tcook.github.favlag.FavlangApplication for test class com.tcook.github.favlag.controller.GitControllerIntegrationTests
+17:21:16.988 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: using defaults.
+17:21:16.992 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+17:21:17.001 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+17:21:17.001 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+17:21:17.004 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@40f08448, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@276438c9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@588df31b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@33b37288, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@77a57272, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7181ae3f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@46238e3f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6e2c9341, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@32464a14, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4e4aea35]
+17:21:17.005 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.tcook.github.favlag.dal.GitHubRestDALTests]
+17:21:17.005 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:21:17.005 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:21:17.005 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.tcook.github.favlag.dal.GitHubRestDALTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:21:17.006 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tcook.github.favlag.dal.GitHubRestDALTests], using SpringBootContextLoader
+17:21:17.006 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tcook.github.favlag.dal.GitHubRestDALTests]: class path resource [com/tcook/github/favlag/dal/GitHubRestDALTests-context.xml] does not exist
+17:21:17.006 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tcook.github.favlag.dal.GitHubRestDALTests]: class path resource [com/tcook/github/favlag/dal/GitHubRestDALTestsContext.groovy] does not exist
+17:21:17.006 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.tcook.github.favlag.dal.GitHubRestDALTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:21:17.006 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.tcook.github.favlag.dal.GitHubRestDALTests]: GitHubRestDALTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:21:17.009 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.tcook.github.favlag.dal.GitHubRestDALTests]
+17:21:17.010 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+17:21:17.010 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+17:21:17.010 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+17:21:17.010 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/tcook/github/favlag/dal/] to resources [URL [file:/C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/dal/], URL [file:/C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/dal/]]
+17:21:17.010 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\dal]
+17:21:17.010 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\dal] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/dal/*.class]
+17:21:17.010 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\dal]
+17:21:17.012 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\dal] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/dal/*.class]
+17:21:17.012 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/tcook/github/favlag/dal/*.class] to resources [file [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\dal\GitHubRestDALTests.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\dal\GitHubRestDAL.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\dal\GitHubRestDALImpl$1.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\dal\GitHubRestDALImpl.class]]
+17:21:17.014 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/tcook/github/favlag/] to resources [URL [file:/C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/], URL [file:/C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/]]
+17:21:17.014 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag]
+17:21:17.014 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/*.class]
+17:21:17.016 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag]
+17:21:17.016 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/*.class]
+17:21:17.016 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/tcook/github/favlag/*.class] to resources [file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\Constants.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\FavlangApplication.class]]
+17:21:17.018 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\FavlangApplication.class]
+17:21:17.018 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.tcook.github.favlag.FavlangApplication for test class com.tcook.github.favlag.dal.GitHubRestDALTests
+17:21:17.018 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.tcook.github.favlag.dal.GitHubRestDALTests]: using defaults.
+17:21:17.020 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+17:21:17.022 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+17:21:17.024 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+17:21:17.024 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b0c2d26, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3d3fcdb0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@641147d0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e38921c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@64d7f7e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@27c6e487, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@49070868, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6385cb26, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@38364841, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@28c4711c]
+17:21:17.040 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.tcook.github.favlag.services.GitHubServiceTests]
+17:21:17.040 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:21:17.040 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:21:17.040 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.tcook.github.favlag.services.GitHubServiceTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:21:17.040 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tcook.github.favlag.services.GitHubServiceTests], using SpringBootContextLoader
+17:21:17.040 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tcook.github.favlag.services.GitHubServiceTests]: class path resource [com/tcook/github/favlag/services/GitHubServiceTests-context.xml] does not exist
+17:21:17.042 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tcook.github.favlag.services.GitHubServiceTests]: class path resource [com/tcook/github/favlag/services/GitHubServiceTestsContext.groovy] does not exist
+17:21:17.042 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.tcook.github.favlag.services.GitHubServiceTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:21:17.042 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.tcook.github.favlag.services.GitHubServiceTests]: GitHubServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:21:17.046 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.tcook.github.favlag.services.GitHubServiceTests]
+17:21:17.046 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+17:21:17.046 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+17:21:17.046 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+17:21:17.048 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/tcook/github/favlag/services/] to resources [URL [file:/C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/services/], URL [file:/C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/services/]]
+17:21:17.048 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\services]
+17:21:17.048 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\services] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/services/*.class]
+17:21:17.048 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\services]
+17:21:17.048 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\services] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/services/*.class]
+17:21:17.050 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/tcook/github/favlag/services/*.class] to resources [file [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\services\GitHubServiceTests$1.class], file [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\services\GitHubServiceTests$2.class], file [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag\services\GitHubServiceTests.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\services\GitHubService.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\services\GitHubServiceImpl.class]]
+17:21:17.052 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [com/tcook/github/favlag/] to resources [URL [file:/C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/], URL [file:/C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/]]
+17:21:17.052 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag]
+17:21:17.052 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\test-classes\com\tcook\github\favlag] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/test-classes/com/tcook/github/favlag/*.class]
+17:21:17.052 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag]
+17:21:17.054 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag] for files matching pattern [C:/Users/PcCom/Desktop/favlang/target/classes/com/tcook/github/favlag/*.class]
+17:21:17.054 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/tcook/github/favlag/*.class] to resources [file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\Constants.class], file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\FavlangApplication.class]]
+17:21:17.056 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Users\PcCom\Desktop\favlang\target\classes\com\tcook\github\favlag\FavlangApplication.class]
+17:21:17.056 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.tcook.github.favlag.FavlangApplication for test class com.tcook.github.favlag.services.GitHubServiceTests
+17:21:17.056 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.tcook.github.favlag.services.GitHubServiceTests]: using defaults.
+17:21:17.058 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+17:21:17.060 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+17:21:17.060 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+17:21:17.060 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f2f2cc1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3a079870, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3b2cf7ab, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2aa5fe93, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5c1a8622, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ad851c9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6156496, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3c153a1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@b62fe6d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@13acb0d1]
+17:21:17.062 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.064 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.064 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.tcook.github.favlag.dal.GitHubRestDALTests]
+17:21:17.064 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.tcook.github.favlag.dal.GitHubRestDALTests]
+17:21:17.064 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.tcook.github.favlag.services.GitHubServiceTests]
+17:21:17.064 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.tcook.github.favlag.services.GitHubServiceTests]
+Running com.tcook.github.favlag.controller.GitControllerIntegrationTests
+17:21:17.066 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.066 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+17:21:17.066 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+17:21:17.066 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+17:21:17.066 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests], using SpringBootContextLoader
+17:21:17.068 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: class path resource [com/tcook/github/favlag/controller/GitControllerIntegrationTests-context.xml] does not exist
+17:21:17.068 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: class path resource [com/tcook/github/favlag/controller/GitControllerIntegrationTestsContext.groovy] does not exist
+17:21:17.068 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:21:17.068 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: GitControllerIntegrationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:21:17.070 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.070 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+17:21:17.070 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+17:21:17.070 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+17:21:17.070 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.tcook.github.favlag.FavlangApplication for test class com.tcook.github.favlag.controller.GitControllerIntegrationTests
+17:21:17.070 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]: using defaults.
+17:21:17.072 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+17:21:17.074 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+17:21:17.074 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+17:21:17.074 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4fe767f3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2805c96b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@184cf7cf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2fd6b6c7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5bfa9431, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5db250b4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@223f3642, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@38c5cc4c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@37918c79, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@78e94dcf]
+17:21:17.074 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.074 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.076 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.076 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.078 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@79efed2d testClass = GitControllerIntegrationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2928854b testClass = GitControllerIntegrationTests, locations = '{}', classes = '{class com.tcook.github.favlag.FavlangApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.SpringBootTestContextCustomizer@5f9d02cb, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@6536e911, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2b552920], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+17:21:17.080 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.080 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.tcook.github.favlag.controller.GitControllerIntegrationTests]
+17:21:17.120 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+17:21:17.120 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+17:21:17.120 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+17:21:17.120 [main] DEBUG org.springframework.core.env.MutablePropertySources - Adding [inline] PropertySource with highest search precedence
+17:21:17.124 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+17:21:17.124 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.2.RELEASE)
+
+2017-04-08 17:21:17.383  INFO 8284 --- [           main] c.t.g.f.c.GitControllerIntegrationTests  : Starting GitControllerIntegrationTests on DESKTOP-CFSIECP with PID 8284 (started by PcCom in C:\Users\PcCom\Desktop\favlang)
+2017-04-08 17:21:17.384  INFO 8284 --- [           main] c.t.g.f.c.GitControllerIntegrationTests  : No active profile set, falling back to default profiles: default
+2017-04-08 17:21:17.413  INFO 8284 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@e15b7e8: startup date [Sat Apr 08 17:21:17 CEST 2017]; root of context hierarchy
+2017-04-08 17:21:18.312  INFO 8284 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@e15b7e8: startup date [Sat Apr 08 17:21:17 CEST 2017]; root of context hierarchy
+2017-04-08 17:21:18.356  INFO 8284 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/favlang],methods=[GET]}" onto public java.lang.String com.tcook.github.favlag.controller.GitHubController.index(java.lang.String,org.springframework.ui.Model) throws com.fasterxml.jackson.core.JsonProcessingException,java.io.IOException
+2017-04-08 17:21:18.358  INFO 8284 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-04-08 17:21:18.358  INFO 8284 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-04-08 17:21:18.380  INFO 8284 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-08 17:21:18.380  INFO 8284 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-08 17:21:18.390  INFO 8284 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in exceptionControllerAdvice
+2017-04-08 17:21:18.406  INFO 8284 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-04-08 17:21:18.498  INFO 8284 --- [           main] c.t.g.f.c.GitControllerIntegrationTests  : Started GitControllerIntegrationTests in 1.364 seconds (JVM running for 1.874)
+2017-04-08 17:21:18.519  INFO 8284 --- [           main] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/favlang],methods=[GET]}" onto public java.lang.String com.tcook.github.favlag.controller.GitHubController.index(java.lang.String,org.springframework.ui.Model) throws com.fasterxml.jackson.core.JsonProcessingException,java.io.IOException
+2017-04-08 17:21:18.530  INFO 8284 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@1500e009
+2017-04-08 17:21:18.535  INFO 8284 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-04-08 17:21:18.535  INFO 8284 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-04-08 17:21:18.535  INFO 8284 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /favlang
+       Parameters = {}
+          Headers = {}
+
+Handler:
+             Type = com.tcook.github.favlag.controller.GitHubController
+           Method = public java.lang.String com.tcook.github.favlag.controller.GitHubController.index(java.lang.String,org.springframework.ui.Model) throws com.fasterxml.jackson.core.JsonProcessingException,java.io.IOException
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = username
+            value = null
+        Attribute = languages
+            value = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = /WEB-INF/jsp/index.jsp
+   Redirected URL = null
+          Cookies = []
+2017-04-08 17:21:18.582  INFO 8284 --- [           main] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/favlang],methods=[GET]}" onto public java.lang.String com.tcook.github.favlag.controller.GitHubController.index(java.lang.String,org.springframework.ui.Model) throws com.fasterxml.jackson.core.JsonProcessingException,java.io.IOException
+2017-04-08 17:21:18.589  INFO 8284 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@5942ee04
+2017-04-08 17:21:18.591  INFO 8284 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-04-08 17:21:18.591  INFO 8284 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-04-08 17:21:18.591  INFO 8284 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /favlang
+       Parameters = {username=[32432aaa]}
+          Headers = {}
+
+Handler:
+             Type = com.tcook.github.favlag.controller.GitHubController
+           Method = public java.lang.String com.tcook.github.favlag.controller.GitHubController.index(java.lang.String,org.springframework.ui.Model) throws com.fasterxml.jackson.core.JsonProcessingException,java.io.IOException
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = error
+            value = Invalid Username
+        Attribute = username
+            value = 32432aaa
+        Attribute = languages
+            value = []
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = /WEB-INF/jsp/index.jsp
+   Redirected URL = null
+          Cookies = []
+2017-04-08 17:21:18.603  INFO 8284 --- [           main] ilder$StaticRequestMappingHandlerMapping : Mapped "{[/favlang],methods=[GET]}" onto public java.lang.String com.tcook.github.favlag.controller.GitHubController.index(java.lang.String,org.springframework.ui.Model) throws com.fasterxml.jackson.core.JsonProcessingException,java.io.IOException
+2017-04-08 17:21:18.613  INFO 8284 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@456be73c
+2017-04-08 17:21:18.615  INFO 8284 --- [           main] o.s.mock.web.MockServletContext          : Initializing Spring FrameworkServlet ''
+2017-04-08 17:21:18.615  INFO 8284 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2017-04-08 17:21:18.615  INFO 8284 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 0 ms
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /favlang
+       Parameters = {username=[kioto]}
+          Headers = {}
+
+Handler:
+             Type = com.tcook.github.favlag.controller.GitHubController
+           Method = public java.lang.String com.tcook.github.favlag.controller.GitHubController.index(java.lang.String,org.springframework.ui.Model) throws com.fasterxml.jackson.core.JsonProcessingException,java.io.IOException
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = index
+             View = null
+        Attribute = username
+            value = kioto
+        Attribute = languages
+            value = [Language [name=Jupyter Notebook, codeBytes=122897], Language [name=Python, codeBytes=75228], Language [name=Java, codeBytes=28021], Language [name=Shell, codeBytes=1208]]
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = /WEB-INF/jsp/index.jsp
+   Redirected URL = null
+          Cookies = []
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.457 sec - in com.tcook.github.favlag.controller.GitControllerIntegrationTests
+Running com.tcook.github.favlag.dal.GitHubRestDALTests
+2017-04-08 17:21:25.517  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tcook.github.favlag.dal.GitHubRestDALTests], using SpringBootContextLoader
+2017-04-08 17:21:25.519  INFO 8284 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.tcook.github.favlag.dal.GitHubRestDALTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-04-08 17:21:25.519  INFO 8284 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.tcook.github.favlag.dal.GitHubRestDALTests]: GitHubRestDALTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-04-08 17:21:25.527  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.tcook.github.favlag.FavlangApplication for test class com.tcook.github.favlag.dal.GitHubRestDALTests
+2017-04-08 17:21:25.535  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-04-08 17:21:25.545  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-04-08 17:21:25.547  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-04-08 17:21:25.551  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@9d1a267, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@58a4a74d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@54aca26f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@314ed053, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@35088e87, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@486bc9a4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7965a51c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3eee3e2b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4f63e3c7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@59532566]
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.233 sec - in com.tcook.github.favlag.dal.GitHubRestDALTests
+Running com.tcook.github.favlag.services.GitHubServiceTests
+2017-04-08 17:21:26.812  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.tcook.github.favlag.services.GitHubServiceTests], using SpringBootContextLoader
+2017-04-08 17:21:26.812  INFO 8284 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.tcook.github.favlag.services.GitHubServiceTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2017-04-08 17:21:26.814  INFO 8284 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.tcook.github.favlag.services.GitHubServiceTests]: GitHubServiceTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2017-04-08 17:21:26.822  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.tcook.github.favlag.FavlangApplication for test class com.tcook.github.favlag.services.GitHubServiceTests
+2017-04-08 17:21:26.833  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-04-08 17:21:26.837  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-04-08 17:21:26.837  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-04-08 17:21:26.837  INFO 8284 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@971e903, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@35636217, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1549bba7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3e4f80cb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@38704ff0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16ade133, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e61e4c2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@c6a6c1d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@36dfbdaf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4f82663e]
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec - in com.tcook.github.favlag.services.GitHubServiceTests
+2017-04-08 17:21:26.939  INFO 8284 --- [       Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@e15b7e8: startup date [Sat Apr 08 17:21:17 CEST 2017]; root of context hierarchy
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.497 s
+[INFO] Finished at: 2017-04-08T17:21:26+02:00
+[INFO] Final Memory: 17M/309M
+[INFO] ------------------------------------------------------------------------
