@@ -19,7 +19,6 @@ import com.tcook.github.favlag.services.GitHubService;
 
 /** 
  * Controller to manage the extended GitHub functionalities
- * As the app is not authenticated in GitHub, has a limit of 60 request per hour
  * 
  * @author Esteban Saenz Caceres
  *
