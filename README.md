@@ -1,6 +1,9 @@
 # Favlang
 Get Github User's favorite language
 
+[Download](https://github.com/esaenzc/favlang/raw/master/favlang.war)
+[Test results](https://github.com/esaenzc/favlang/blob/master/MavenTestResults.txt)
+
 ## Description
 Favlang connects with GitHub API via REST Web Services and get a list of the programming languages used by an user and the number of bytes coded in each one.
 
