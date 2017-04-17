@@ -9,6 +9,7 @@ import java.util.Map;
 
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -40,7 +41,8 @@ public class GitHubRestDALImpl implements GitHubRestDAL {
 	private String gitHubpass;
 
 	@Override
-	public List<Repository> getUserRepos(String username) {
+	@Cacheable("repos")
+	public List<Repository> findUserRepos(String username) {
 		RestTemplate restTemplate = new RestTemplate();
 		String uri = Constants.REPO_URI + username + Constants.REPO;
 		List<Repository> repositories = new ArrayList<Repository> ();
@@ -56,11 +58,12 @@ public class GitHubRestDALImpl implements GitHubRestDAL {
 			}	
 		}
 		return repositories;
-	}
-	
-	@SuppressWarnings("unchecked")
+	}	
+
 	@Override
-	public List<Language> getUserLanguages(String username, String repository) throws JsonProcessingException, IOException {
+	@Cacheable("repos")
+	@SuppressWarnings("unchecked")
+	public List<Language> findUserLanguages(String username, String repository) throws JsonProcessingException, IOException {
 		List<Language> languages = new ArrayList<Language> ();
 		RestTemplate restTemplate = new RestTemplate();	
 		String uri = Constants.LANG_URI + username + Constants.SLASH + repository + Constants.LANG;

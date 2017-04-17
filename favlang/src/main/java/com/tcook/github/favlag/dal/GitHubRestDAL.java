@@ -14,7 +14,7 @@ public interface GitHubRestDAL {
 	 * @param username
 	 * @return User repositories
 	 */
-	public List<Repository> getUserRepos(String username);
+	public List<Repository> findUserRepos(String username);
 
 	/** Get User Languages from a repository
 	 * 
@@ -24,7 +24,7 @@ public interface GitHubRestDAL {
 	 * @throws JsonProcessingException
 	 * @throws IOException
 	 */
-	public List<Language> getUserLanguages(String username, String repository)
+	public List<Language> findUserLanguages(String username, String repository)
 			throws JsonProcessingException, IOException;
 
 }

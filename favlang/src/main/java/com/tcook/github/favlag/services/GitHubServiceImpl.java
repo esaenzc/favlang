@@ -28,7 +28,7 @@ public class GitHubServiceImpl implements GitHubService {
 	
 	@Override
 	public List<Repository> getUserRepositories (String username) {
-		List<Repository> repositories = gitHubRestDal.getUserRepos(username);
+		List<Repository> repositories = gitHubRestDal.findUserRepos(username);
 		return repositories;
 	}
 	
@@ -41,7 +41,7 @@ public class GitHubServiceImpl implements GitHubService {
 
 		// Get all the languages from each the repository of the User and add all code lines of each language
 		for (Repository repository : repositories) {		
-			List<Language> languages = gitHubRestDal.getUserLanguages(username, repository.getName());			
+			List<Language> languages = gitHubRestDal.findUserLanguages(username, repository.getName());			
 			
 			for (Language language : languages) {
 				String langName = language.getName();

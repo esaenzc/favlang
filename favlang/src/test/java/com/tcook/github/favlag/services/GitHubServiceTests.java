@@ -58,7 +58,7 @@ public class GitHubServiceTests {
 
 	@Test
 	public void testGetTotalBytesCodedByLang() throws JsonProcessingException, IOException {	
-		Mockito.when(gitHubRestDALMock.getUserLanguages(Mockito.any(String.class),Mockito.any(String.class))).thenReturn(LANGUAGES_DUMMY);
+		Mockito.when(gitHubRestDALMock.findUserLanguages(Mockito.any(String.class),Mockito.any(String.class))).thenReturn(LANGUAGES_DUMMY);
 		
 		List<Language> languages = gitHubServ.getUserLanguages("user", REPOSITORIES_DUMMY);
 		
@@ -71,13 +71,13 @@ public class GitHubServiceTests {
 		assertTrue(languages.get(1).getName().equals("lang2"));
 		assertTrue(languages.get(1).getCodeBytes() == (21 + 21));
 		
-		Mockito.verify(gitHubRestDALMock, VerificationModeFactory.times(2)).getUserLanguages(Mockito.any(String.class),Mockito.any(String.class));
+		Mockito.verify(gitHubRestDALMock, VerificationModeFactory.times(2)).findUserLanguages(Mockito.any(String.class),Mockito.any(String.class));
 		Mockito.verifyNoMoreInteractions(gitHubRestDALMock);		
 	}
 	
 	@Test
 	public void testGetRepos() throws JsonProcessingException, IOException {	
-		Mockito.when(gitHubRestDALMock.getUserRepos(Mockito.any(String.class))).thenReturn(REPOSITORIES_DUMMY);
+		Mockito.when(gitHubRestDALMock.findUserRepos(Mockito.any(String.class))).thenReturn(REPOSITORIES_DUMMY);
 
 		List<Repository> repos = gitHubServ.getUserRepositories("user");
 		
@@ -87,13 +87,13 @@ public class GitHubServiceTests {
 		assertTrue(repos.get(1).getName().equals("Repo2"));
 		assertTrue(repos.get(1).getId().equals("2"));
 		
-		Mockito.verify(gitHubRestDALMock, VerificationModeFactory.times(1)).getUserRepos(Mockito.any(String.class));
+		Mockito.verify(gitHubRestDALMock, VerificationModeFactory.times(1)).findUserRepos(Mockito.any(String.class));
 		Mockito.verifyNoMoreInteractions(gitHubRestDALMock);
 	}
 	
 	@Test
 	public void testNoRepos() throws JsonProcessingException, IOException {	
-		Mockito.when(gitHubRestDALMock.getUserRepos(Mockito.any(String.class))).thenReturn(new ArrayList<Repository> ());
+		Mockito.when(gitHubRestDALMock.findUserRepos(Mockito.any(String.class))).thenReturn(new ArrayList<Repository> ());
 		assertTrue(gitHubServ.getUserRepositories("user").isEmpty());
 	}
 	
